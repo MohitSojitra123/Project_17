@@ -1,0 +1,402 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.navleft{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navright{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navright a{
+    text-decoration: none;
+    color: black;
+    padding-inline: 50px;
+    font-size: 20px;
+}
+
+.navright .menu{
+    display: none;
+}
+
+.side_menu{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.side_menu .menu_item{
+    background-color: white;
+    text-align: center;
+    border-bottom: 0.5px solid black;
+    border-top: 0.5px solid black;
+    width: 100%;
+    height: inherit;
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.side_menu .menu_item:hover{
+    background-color: black;
+    color: white;
+}
+
+.hero{
+    width: 100%;
+    height: 625px;
+    background-image: url(./asserts/architect.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+
+
+/* section 1 */
+
+.container{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+img{
+    object-fit: cover;
+    object-position: center;
+}
+
+.hed1{
+    width: 15%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.row1{
+    width: 95%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block_1{
+    width: 24%;
+    height: inherit;
+    position: relative;
+}
+
+.label_1{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 8px;
+}
+
+/* section 1 */
+
+/* section 2 */
+
+.con{
+    width: 100%;
+    height: auto; 
+}
+
+.hed1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content_1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content_1 p{
+    width: 90%;
+    font-size: 19px;
+    padding: 15px;
+
+}
+
+.section_2{
+ width: 100%;
+ height: auto;
+ display: flex;
+ justify-content: space-around;
+ margin-top: 20px;
+}
+
+.cards{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1{
+    width: 24%;
+    height: 500px;
+}
+
+.card1 .upper{
+   width: 100%;
+   height: 250px;
+}
+.card1 .middle{
+   width: 100%;
+   height: 200px;
+}
+
+.card1 .lower{
+   width: 100%;
+   height: 50px;
+}
+
+.card1 .middle{
+    padding: 10px 10px; 
+}
+
+.middle h2{
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.middle h3{
+    font-size: 20px;
+    font-weight: lighter;
+    padding:10px 0;
+}
+
+.middle p{
+    font-size: 19px;
+}
+
+.lower a{
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    height: 90%;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+    color: black;
+}
+
+.lower a:hover{
+  background-color: grey;
+}
+
+
+/* section 3 */
+
+.inner{
+    width: 90%;
+    height: auto;
+}
+
+.con13{
+    padding:10px 0px;
+    font-size: larger;
+}
+.con12{
+    padding:10px 0px;
+    font-size: 20px;
+}
+
+
+.form{
+    width: 100%;
+    height: auto;
+}
+
+.form input{
+    width: 100%;
+    height: 35px;
+    font-size: 25px;
+    padding: 10px 10px;
+    margin: 14px 0px;
+}
+
+.form a{
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.form a:hover{
+    background-color: white;
+    color: black;
+}
+
+.foot{
+    margin-bottom: 50px;
+    width: 90%;
+    background-image: url('./asserts/map.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+/* section 3 */
+
+/* section 2 */
+
+/* nav */
+
+@media (min-width:0px) and (max-width:900px){
+
+    .navbar{
+        justify-content: space-between;
+    }
+    
+    .navleft{
+        width: 70%;
+    }
+
+    .navright{
+        width: 20%;
+    }
+
+    .navright a{
+        display: none;
+    }
+
+    .navright .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+    }    
+}
+
+@media (min-width:0px) and (max-width:400px) {
+    .hero{
+        width: 100%;
+        height: 90vh;
+        background-position: center;
+        background-size: cover;
+        background-color: brown;
+    }
+      
+}
+
+
+@media (min-width:401px) and (max-width:900px) {
+    .hero{
+        width: 100%;
+        height: 90vh;
+        background-color: brown;
+    }
+
+}
+
+@media (min-width:500px) and (max-width:1000px){
+   
+    .container{
+        width: 100%;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .row1{
+      width: 100%;
+      height: auto;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: flex-start;
+      gap:60px 0;
+      
+    }
+
+    .block_1{
+        width: 45%;
+        height: 250px;
+    }
+    
+       /* section 2 */
+
+       .cards{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;  
+        gap: 30px 0; 
+    }
+
+    .card1{
+            width: 45%;
+            height: 500px;
+    }
+}
+
+@media (min-width:0px) and (max-width:500px){
+     .container{
+        width: 100%;
+        height: auto;
+        margin-bottom: 40px;
+     }
+
+     .row1{
+        width: 100%;
+        height: inherit;
+        flex-direction: column;
+        align-items: center;
+       gap: 40px 0;
+    }
+
+     .block_1{
+        width: 90%;
+        height: 250px;
+     }
+
+     .cards{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;  
+        gap: 30px 0; 
+    }
+
+    .card1{
+            width: 90%;
+            height: 500px;
+    }
+
+}
+
+
+
